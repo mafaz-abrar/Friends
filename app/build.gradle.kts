@@ -55,6 +55,11 @@ dependencies {
     implementation("androidx.room:room-runtime:$roomVersion")
     annotationProcessor("androidx.room:room-compiler:$roomVersion")
     ksp("androidx.room:room-compiler:$roomVersion")
-
     implementation("androidx.room:room-ktx:$roomVersion")
+
+    // Lifecycle
+    val lifeCycleVersion = "2.4.0"
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifeCycleVersion")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifeCycleVersion")
+    implementation("androidx.lifecycle:lifecycle-common-java8:$lifeCycleVersion")
 }
